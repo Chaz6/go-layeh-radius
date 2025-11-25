@@ -2,6 +2,40 @@ VENDOR        ERX  4874
 
 BEGIN-VENDOR  ERX
 
+ATTRIBUTE     ERX-Virtual-Router-Name               1    string
+ATTRIBUTE     ERX-Address-Pool-Name                 2    string
+ATTRIBUTE     ERX-Local-Loopback-Interface          3    string
+ATTRIBUTE     ERX-Primary-Dns                       4    ipaddr
+ATTRIBUTE     ERX-Secondary-Dns                     5    ipaddr
+ATTRIBUTE     ERX-Primary-Wins                      6    ipaddr
+ATTRIBUTE     ERX-Secondary-Wins                    7    ipaddr
+ATTRIBUTE     ERX-Tunnel-Virtual-Router             8    string
+ATTRIBUTE     ERX-Tunnel-Password                   9    string
+ATTRIBUTE     ERX-Ingress-Policy-Name               10   string
+ATTRIBUTE     ERX-Egress-Policy-Name                11   string
+ATTRIBUTE     ERX-Ingress-Statistics                12   integer
+ATTRIBUTE     ERX-Egress-Statistics                 13   integer
+ATTRIBUTE     ERX-Atm-Service-Category              14   integer
+ATTRIBUTE     ERX-Atm-PCR                           15   integer
+ATTRIBUTE     ERX-Atm-SCR                           16   integer
+ATTRIBUTE     ERX-Atm-MBS                           17   integer
+ATTRIBUTE     ERX-Cli-Initial-Access-Level          18   string
+ATTRIBUTE     ERX-Cli-Allow-All-VR-Access           19   integer
+ATTRIBUTE     ERX-Alternate-Cli-Access-Level        20   string
+ATTRIBUTE     ERX-Alternate-Cli-Vrouter-Name        21   string
+ATTRIBUTE     ERX-Sa-Validate                       22   integer
+ATTRIBUTE     ERX-Igmp-Enable                       23   integer
+ATTRIBUTE     ERX-Pppoe-Description                 24   string
+ATTRIBUTE     ERX-Redirect-VR-Name                  25   string
+ATTRIBUTE     ERX-Qos-Profile-Name                  26   string
+ATTRIBUTE     ERX-Pppoe-Max-Sessions                27   integer
+ATTRIBUTE     ERX-Pppoe-Url                         28   string
+ATTRIBUTE     ERX-Qos-Profile-Interface-Type        29   integer
+ATTRIBUTE     ERX-Tunnel-Nas-Port-Method            30   integer
+ATTRIBUTE     ERX-Service-Bundle                    31   string
+ATTRIBUTE     ERX-Tunnel-Tos                        32   integer
+ATTRIBUTE     ERX-Tunnel-Maximum-Sessions           33   integer
+ATTRIBUTE     ERX-Framed-Ip-Route-Tag               34   string
 ATTRIBUTE     ERX-Dial-Out-Number                   35   string
 ATTRIBUTE     ERX-PPP-Username                      36   string
 ATTRIBUTE     ERX-PPP-Password                      37   string
